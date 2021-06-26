@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compu</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="img/">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="#">Compu Z</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link " href="#">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="#">Productos</a>
+                <a class="nav-link active" href="https://example.com/">Contacto </a> 
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Nosotros</a>
+                <a class="nav-link active" href="#" tabindex="-1" aria-details="true"> Nuestro Local </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="conteiner-fluid "></div>
+    <div id="Inicio" class="row align-items-top hero">
+        <div class="col-lg-5 offset-lg-2">
+            <h1>Titulo Principal</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+    <div id="Novedades" class="row py-4">
+    <div class="col-md-5 offset-md-2 py-3">
+
+        
+
+      
+        <!-- Novedades -->
+        <h2>Novedades</h2>
+        <ul class="Novedades-lista">
+
+            <li><a data-toggle="modal" data-target="#exampleModal" href="#"> <img src="img/compu1.jpg"> Novedad 1</a> </li>
+            <br>
+            <li><a href="#"> <img src="img/compu1.jpg"> Novedad 2 </a></li>
+            <br>
+            <li><a href="#"> <img src="img/compu1.jpg"> Novedad 3 </a></li>
+            <br>
+            <li><a href="#"> <img src="img/compu1.jpg"> Novedad 4 </a></li>
+        </ul>
+    </div>
+
+
+    <!-- Inicio de Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aperiam libero mollitia ab quae
+                    minima nisi culpa totam, accusantium quas. Eos explicabo, repudiandae non architecto soluta
+                    dolore. Iure, corporis deserunt?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Termina el modal -->
+
+    <!-- Carrusel inicio -->
+    
+    <div class="col-md-3">
+    <div class="rounded py-3 Testimonios">
+        <h5 class="text-center"> Nuestros mejores productos</h5>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Auriculares.jpg" class="d-block w-100" alt="Auricular">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Auriculares Gamer</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Teclado K.jpg" class="d-block w-100" alt="Teclado">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Teclado Kumara White</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/RTX 3090.jfif " class="d-block w-100" alt="Placa de video">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Geforce RTX 3090</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+        </div>
+        <!-- Fin de carrusel -->
+
+        </div>
+    </div>
+    <footer>
+        <p class="text-center">
+            Martin Petterson
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    
+
+</body>
+
+</html>
