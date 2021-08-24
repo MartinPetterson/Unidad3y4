@@ -3,12 +3,21 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-footer{
-    background-color: black;
-    color: white;
+#empleados{
+    padding-top: 90px;
 }
 
 #Nuestra{
     color: white;
     font-family: 'Roboto Mono', monospace;
+}
+
+#Barra{
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
+}
+
+.row{
+    margin-right: 0%;
 }

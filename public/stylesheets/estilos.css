@@ -1,16 +1,11 @@
 /* font-family: 'Stint Ultra Condensed', cursive; */
 
-footer{
-    background-color: black;
-    color: white;
-}
-
 h1{
     font-family: 'Stint Ultra Condensed', cursive;
 }
 
 .hero{
-    background: url(../img/header12.jpg) no-repeat;
+    background: url(../images/header12.jpg) no-repeat;
 background-size: cover;
 height: 0.4vh;
 min-height: 400px;
@@ -26,6 +21,12 @@ color: white;
 font-family: 'Stint Ultra Condensed', cursive;
 font-size: x-large;
 
+}
+
+#Barra{
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
 }
 
 .Novedades-lista li a{
@@ -89,3 +90,6 @@ color: orange;
     position:unset;
 }
 
+.row{
+    margin-right: 0px;
+}  
